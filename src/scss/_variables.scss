@@ -1,0 +1,27 @@
+
+:root {
+ --Scissors: hsl(39, 89%, 49%) ;
+ --Paper: hsl(230, 89%, 62%); 
+  --Rock : hsl(349, 71%, 52%) ;
+  --Lizard : hsl(261, 73%, 60%) ;
+ 
+  // text 
+ 
+  --Dark-Text: hsl(229, 25%, 31%);
+ --Score-Text: hsl(229, 64%, 46%);
+ --Header-Outline: hsl(217, 25%, 45%);
+ 
+ // background 
+ 
+ --background-gradient: radial-gradient(circle, hsl(214, 87%, 30%),  hsl(227, 29%, 15%));
+
+ // images
+ 
+     
+}
+
+$imageP:"../src/images/icon-paper.svg";
+$imageS:"../src/images/icon-scissors.svg";
+$imageR:"../src/images/icon-rock.svg";
+$imageL: "../src/images/icon-lizard.svg";
+$imageSP: "../src/images/icon-spock.svg";

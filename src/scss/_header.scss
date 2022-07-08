@@ -1,0 +1,48 @@
+
+
+
+.header {
+    display: flex;
+    border: 4px solid var(--Header-Outline);
+    max-width: 650px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 1rem;
+    padding: 20px;
+    justify-content: space-between;
+
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6rem;
+        align-items: flex-start;
+        line-height: 2rem;
+    }
+
+    .score-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+            padding: 10px 20px;
+            border-radius: 1rem;
+            background-color: white;
+            
+
+        span {
+           padding-bottom: 30px;
+            color: hsl(230, 89%, 62%);
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+
+        .score-score {
+            font-size: 2.9rem;
+            line-height: 2rem;
+            font-weight: bold;
+            color: hsl(349, 78%, 59%) ;
+        }
+    }
+}

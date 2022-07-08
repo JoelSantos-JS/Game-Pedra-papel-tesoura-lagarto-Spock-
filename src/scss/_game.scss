@@ -1,0 +1,152 @@
+
+.game {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &-you {
+        display: flex;
+        flex-direction: column;
+        
+        .text {
+            font-size: 25px;
+            gap: 15px;
+        }
+
+        .icon {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            border-color: transparent;
+            border: 20px solid;
+
+            &-paper {
+                background-color: whitesmoke;
+                background-image: url($imageP);
+                background-repeat: no-repeat;
+                border-color: var(--Paper);
+                background-position: center;
+            }
+
+            &-scissors {
+                background-color: whitesmoke;
+                background-image: url($imageS);
+                background-repeat: no-repeat;
+                border-color: var(--Scissors);
+                background-position: center;
+            }
+            &-rock {
+                background-color: whitesmoke;
+                background-image: url($imageR);
+                background-repeat: no-repeat;
+                border-color: var(--Rock);
+                background-position: center;
+            }
+            &-lizard {
+                background-color: whitesmoke;
+                background-image: url($imageL);
+                background-repeat: no-repeat;
+                border-color: var(--Lizard);
+                background-position: center;
+            }
+
+            &-spock {
+                background-color: whitesmoke;
+                background-image: url($imageSP);
+                background-repeat: no-repeat;
+                border-color: var(--Score-Text);
+                background-position: center;
+            }
+        }
+    }
+
+    &-house {
+        display: flex;
+        flex-direction: column;
+
+        .text {
+            font-size: 25px;
+            gap: 15px;
+        }
+
+        .icon {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            border-color: transparent;
+            border: 20px solid;
+
+            &-paper {
+                background-color: whitesmoke;
+                background-image: url($imageP);
+                background-repeat: no-repeat;
+                border-color: var(--Paper);
+                background-position: center;
+            }
+
+            &-scissors {
+                background-color: whitesmoke;
+                background-image: url($imageS);
+                background-repeat: no-repeat;
+                border-color: var(--Scissors);
+                background-position: center;
+            }
+            &-rock {
+                background-color: whitesmoke;
+                background-image: url($imageR);
+                background-repeat: no-repeat;
+                border-color: var(--Rock);
+                background-position: center;
+            }
+            &-lizard {
+                background-color: whitesmoke;
+                background-image: url($imageL);
+                background-repeat: no-repeat;
+                border-color: var(--Lizard);
+                background-position: center;
+            }
+
+            &-spock {
+                background-color: whitesmoke;
+                background-image: url($imageSP);
+                background-repeat: no-repeat;
+                border-color: var(--Score-Text);
+                background-position: center;
+            }
+        }
+
+        .counter {
+            height: 250px;
+            width: 250px;
+            background-color: hsl(227, 29%, 15%);
+            margin-left: 15px;
+            border-radius: 50%;
+            font-size: 8rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+
+    .result_play {
+        display: flex;
+        flex-direction: column;
+        padding: 0 45px;
+        gap: 50px;
+
+        .text {
+            font-size: 3rem;
+        }
+
+        .play-again {
+            background-color: whitesmoke;
+            color: var(--Score-Text);
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 15px 10px;
+        }
+    }
+}

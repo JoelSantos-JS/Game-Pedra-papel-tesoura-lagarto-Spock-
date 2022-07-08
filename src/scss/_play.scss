@@ -1,0 +1,98 @@
+
+
+.play {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    .pentagon {
+        position: absolute;
+        align-self: center;
+        margin-top: 70px;
+    }
+
+    .items {
+        display: flex;
+        justify-content: center;
+      
+                
+
+        .icon {
+            height: 160px;
+            width: 160px;
+            border: 18px solid;
+            border-radius: 50%;
+            &-paper{
+               
+                background-color: whitesmoke;
+                background-repeat: no-repeat;
+                border-color: var(--Paper);
+                background-position: center;
+                transform: translateX(301px);
+                transition: 0.2s all ease;
+
+                &:hover {
+                    transform: translateX(303px) scale(1.1);
+                }
+            }
+
+            &-scissors {
+                background-color: whitesmoke;
+                background-repeat: no-repeat;
+                border-color: var(--Scissors);
+                background-position: center;
+                transform: translateY(123px);
+                transition: transform 0.2s all ease;
+
+                &:hover {
+                    transform: translateY(115px) scale(1.1);
+                }
+            }
+
+            &-rock {
+                background-color: whitesmoke;
+                background-repeat: no-repeat;
+                border-color: var(--Rock);
+                background-position: center;
+                transition: 0.2s all ease;
+               
+                
+                transform: translate(115px , 115px);
+
+                &:hover {
+                    transform: translate(115px , 115px) scale(1.1);
+                }
+            }
+
+            &-lizard {
+                background-color: whitesmoke;
+                background-repeat: no-repeat;
+                border-color: var(--Lizard);
+                background-position: center;
+                transform: translate(-250px,295px);
+                transition: 0.2s all ease;
+
+                &:hover {
+                    transform: translate(-250px,295px) scale(1.1);
+                }
+            }
+
+            &-spock {
+                background-color: whitesmoke;
+                background-repeat: no-repeat;
+                border-color: var(--Score-Text);
+                background-position: center;
+                transform: translate(-200px,295px);
+                transition: 0.2s all ease;
+
+                &:hover {
+                    transform: translate(-200px,295px) scale(1.1);
+
+                }
+            }
+        }
+    }
+
+}
